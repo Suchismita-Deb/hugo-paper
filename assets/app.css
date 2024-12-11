@@ -26,6 +26,11 @@
     @apply !font-semibold;
   }
 
+  h3 {
+    color: #009900 !important; /* Replace with your desired color */
+    font-weight: bold; /* Optional: keep it bold */
+  }
+
   pre {
     direction: ltr;
   }
