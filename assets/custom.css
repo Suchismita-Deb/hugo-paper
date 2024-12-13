@@ -7,3 +7,12 @@ h3 {
 b,strong{
 color: #640D5F !important;
 }
+
+p {
+    margin: 8px 0; /* Adjust vertical spacing */
+    line-height: 1.5; /* Adjust line spacing */
+}
+
+h1, h2, h3 {
+    margin-bottom: 12px; /* Adjust spacing between headings and text */
+}
