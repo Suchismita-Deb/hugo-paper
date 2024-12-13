@@ -757,7 +757,7 @@ pre {
   font-size: 1.25em;
   margin-top: 1.6em;
   margin-bottom: 0.6em;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 .prose :where(h3 strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {

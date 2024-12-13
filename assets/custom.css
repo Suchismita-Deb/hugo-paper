@@ -9,10 +9,12 @@ color: #640D5F !important;
 }
 
 p {
-    margin: 7.5px 0 !important; /* Adjust vertical spacing */
-    line-height: 1.5 !important; /* Adjust line spacing */
+    margin: 20px 0 !important; /* Adjust vertical spacing */
+    line-height: 1.6 !important; /* Adjust line spacing */
 }
 
 h1, h2, h3 {
-    margin-bottom: 12px !important; /* Adjust spacing between headings and text */
+    margin-bottom: 20px !important; /* Adjust spacing between headings and text */
+    margin-top: 20px !important; /* Adjust spacing between headings and text */
+    font-weight:700 !important;
 }
