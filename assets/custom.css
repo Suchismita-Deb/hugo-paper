@@ -18,7 +18,19 @@ h1, h2, h3 {
     margin-top: 20px !important; /* Adjust spacing between headings and text */
     font-weight:700 !important;
 }
+
+/** Making the text coming in a bit more width. */
 .px-8 {
     padding-left: 0rem !important;
     padding-right: 0rem !important;
+}
+
+/** Making the code in a block form. */
+code {
+    background-color: #f5f5f5; /* Light gray background */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 2px 4px; /* Add some space inside the code block */
+    font-family: "Courier New", Courier, monospace; /* Monospace font for code */
+    color: #d63384; /* Optional: Code color */
 }
