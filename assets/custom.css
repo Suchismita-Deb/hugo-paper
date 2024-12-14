@@ -42,7 +42,6 @@ code {
 
 table {
     width: 100% !important; /* Ensure table takes full width */
-    border: 3px solid #000 !important; /* Bold outer boundary */
     border-collapse: collapse !important; /* Remove spacing between table cells */
     margin: 1rem 0 !important; /* Add vertical margin */
     font-size: 1rem !important; /* Adjust font size */
