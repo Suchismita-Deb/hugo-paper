@@ -42,21 +42,27 @@ code {
 
 table {
     width: 100% !important; /* Ensure table takes full width */
+    border: 3px solid #000 !important; /* Bold outer boundary */
     border-collapse: collapse !important; /* Remove spacing between table cells */
     margin: 1rem 0 !important; /* Add vertical margin */
     font-size: 1rem !important; /* Adjust font size */
 }
 
-table th,
-table td {
-    border: 1px solid #ccc !important; /* Light gray border for all cells */
-    padding: 8px 12px !important; /* Padding for cell content */
-    text-align: left !important; /* Left align text */
+/* Style the header row */
+table th {
+    background-color: #f2f2f2 !important; /* Light gray background for header */
+    color: #000 !important; /* Black text color */
+    font-weight: bold !important;
+    text-align: center !important; /* Center-align header titles */
+    border: 2px solid #000 !important; /* Bold borders */
+    padding: 10px !important;
 }
 
-table th {
-    background-color: #f4f4f4 !important; /* Light gray header background */
-    font-weight: bold !important; /* Make headers bold */
+/* Style all table rows and cells */
+table td {
+    border: 2px solid #000 !important; /* Prominent lines for cells */
+    padding: 10px !important; /* Add padding for better spacing */
+    text-align: left !important;
 }
 
 table tr:nth-child(even) {
