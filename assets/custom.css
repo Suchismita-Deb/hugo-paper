@@ -40,34 +40,38 @@ code {
 
 /* Custom CSS to override default table styles */
 
+/* Style the entire table */
 table {
-    width: 100% !important; /* Ensure table takes full width */
-    border-collapse: collapse !important; /* Remove spacing between table cells */
-    margin: 1rem 0 !important; /* Add vertical margin */
-    font-size: 1rem !important; /* Adjust font size */
+    width: 100% !important;
+    border: 3px solid #000 !important; /* Bold outer boundary */
+    border-collapse: collapse !important;
+    margin: 1rem 0 !important;
+    font-size: 1rem !important;
 }
 
 /* Style the header row */
 table th {
     background-color: #f2f2f2 !important; /* Light gray background for header */
     color: #000 !important; /* Black text color */
-    border: 1px solid #000 !important;
     font-weight: bold !important;
     text-align: center !important; /* Center-align header titles */
+    border: 2px solid #000 !important; /* Bold borders */
     padding: 10px !important;
 }
 
 /* Style all table rows and cells */
 table td {
-    border: 1px solid #000 !important;
+    border: 2px solid #000 !important; /* Prominent lines for cells */
     padding: 10px !important; /* Add padding for better spacing */
     text-align: left !important;
 }
 
+/* Alternate row background color for better readability */
 table tr:nth-child(even) {
-    background-color: #f9f9f9 !important; /* Alternate row color */
+    background-color: #f9f9f9 !important; /* Light gray for even rows */
 }
 
+/* Highlight rows on hover */
 table tr:hover {
-    background-color: #f1f1f1 !important; /* Highlight row on hover */
+    background-color: #e0e0e0 !important; /* Slightly darker gray on hover */
 }
