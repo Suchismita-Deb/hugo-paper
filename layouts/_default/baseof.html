@@ -43,22 +43,23 @@
 <body class="text-black duration-200 ease-out dark:text-white">
 {{ partial "header.html" . }}
 
-<div class="flex">
-    <!-- Sidebar starts here -->
-    <div class="fixed top-0 left-0 w-64 bg-gray-800 text-white h-screen overflow-y-auto p-4" id="sidebar">
-        <h2 class="text-xl font-bold">Table of Contents</h2>
-        <ul id="sidebar-list">
-            <!-- Sidebar list will be populated dynamically here -->
+<div class="main-container flex">
+    <!-- Sidebar -->
+    <aside class="sidebar fixed top-0 right-0 p-4 bg-white shadow-md">
+        <h3>Table of Contents</h3>
+        <ul>
+            {{ range .Sections }}
+            <li><a href="#{{ .Anchor }}">{{ .Title }}</a></li>
+            {{ end }}
         </ul>
-    </div>
+    </aside>
 
     <!-- Main content -->
-    <main
-            class="prose prose-neutral relative mx-auto min-h-[calc(100vh-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert ml-64"
-    >
+    <main class="prose prose-neutral relative mx-auto min-h-[calc(100vh-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert">
         {{ block "main" . }}{{ end }}
     </main>
 </div>
+
 <!--    <main-->
 <!--      class="prose prose-neutral relative mx-auto min-h-[calc(100vh-9rem)] max-w-[&#45;&#45;w] px-8 pb-16 pt-14 dark:prose-invert"-->
 <!--    >-->
