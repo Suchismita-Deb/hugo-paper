@@ -59,7 +59,6 @@ table th {
 
 /* Style all table rows and cells */
 table td {
-    border: 1px solid #000 !important; /* Prominent lines for cells */
     padding: 10px !important; /* Add padding for better spacing */
     text-align: left !important;
 }
