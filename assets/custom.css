@@ -46,11 +46,12 @@ table {
     margin: 1rem 0 !important; /* Add vertical margin */
     font-size: 1rem !important; /* Adjust font size */
 }
-table th, table.td{border: 1px solid #000 !important; /* Bold borders */}
+
 /* Style the header row */
 table th {
     background-color: #f2f2f2 !important; /* Light gray background for header */
     color: #000 !important; /* Black text color */
+    border: 1px solid #000 !important;
     font-weight: bold !important;
     text-align: center !important; /* Center-align header titles */
     padding: 10px !important;
@@ -58,6 +59,7 @@ table th {
 
 /* Style all table rows and cells */
 table td {
+    border: 1px solid #000 !important;
     padding: 10px !important; /* Add padding for better spacing */
     text-align: left !important;
 }
