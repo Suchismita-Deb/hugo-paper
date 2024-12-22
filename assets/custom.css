@@ -5,7 +5,12 @@ h3 {
 }
 
 h2{
-    color: #fc7303 !important; /* 094d1b */
+    color: #094d1b !important; /* fc7303 */
+}
+
+body.home h1,
+body.home h2 {
+  color: black !important;
 }
 
 b,strong{
