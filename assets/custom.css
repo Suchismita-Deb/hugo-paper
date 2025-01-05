@@ -85,3 +85,12 @@ table tr:nth-child(even) {
 table tr:hover {
     background-color: #e0e0e0 !important; /* Slightly darker gray on hover */
 }
+
+
+/*Center the image.*/
+.center-image {
+    display: block !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    max-width: 100% !important;
+}
