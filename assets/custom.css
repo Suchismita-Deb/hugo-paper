@@ -90,7 +90,16 @@ table tr:hover {
 /*Center the image.*/
 .center-image {
     display: block !important;
-    margin: 0 auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     text-align: center !important;
     max-width: 100% !important;
 }
+
+.post-content img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 100% !important; /* Ensures the image doesn't overflow */
+}
+
