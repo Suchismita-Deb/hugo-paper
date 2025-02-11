@@ -97,6 +97,7 @@ pre, code {
 .content {
     overflow-wrap: break-word !important;
     word-wrap: break-word !important;
+    max-width: 1000px !important;
 }
 
 
@@ -115,5 +116,20 @@ pre, code {
     margin-left: auto !important;
     margin-right: auto !important;
     max-width: 100% !important; /* Ensures the image doesn't overflow */
+}
+
+@media (min-width: 1024px) {
+    .content {
+        max-width: 1000px !important; /* Adjust width as needed */
+        margin: 0 auto !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .single, .post-content {
+        max-width: 1000px !important;
+        width: 100% !important;
+        padding: 0 50px !important; /* Adjust side padding */
+    }
 }
 
