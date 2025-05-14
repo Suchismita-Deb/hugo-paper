@@ -133,3 +133,16 @@ pre, code {
     }
 }
 
+/* Center the figure block */
+.centered-figure {
+  text-align: center;
+  margin: 1.5em auto;
+}
+
+.centered-figure figcaption {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #555;
+  margin-top: 0.5em;
+  text-align: center;
+}
