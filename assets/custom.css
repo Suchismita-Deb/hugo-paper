@@ -52,7 +52,21 @@ code {
 
 /* Style the entire table */
 table {
-    width: 100% !important;
+    /* width: 100% !important; */ /* It will take the entire page to make the table when it can be in middle. */
+    width: auto !important; /* It will only take the space needed. */
+    max-width: 100% !important;
+
+    /* It is to make the table in the center. */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    display: table !important;
+
+    table-layout: auto !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+
     border: 1.5px solid #000 !important; /* Bold outer boundary */
     border-collapse: collapse !important;
     margin: 1rem 0 !important;
@@ -76,6 +90,16 @@ table td {
     text-align: left !important;
 }
 
+/*
+table th,
+table td {
+  white-space: normal !important;
+  padding: 0.5rem !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  word-break: break-word !important;
+} */
+
 /* Alternate row background color for better readability */
 table tr:nth-child(even) {
     background-color: #f9f9f9 !important; /* Light gray for even rows */
@@ -92,6 +116,8 @@ pre, code {
     word-wrap: break-word !important; /* Allow long words to break */
     overflow-wrap: break-word !important;
 }
+
+
 
 /* Ensure general content does not overflow */
 .content {
@@ -137,7 +163,25 @@ pre, code {
 .centered-figure {
   text-align: center;
   margin: 1.5em auto;
+
+    /* Making a border in the image.
+  border: 3px solid black;
+  border-radius: 8px;
+    padding: 4px;
+    max-width: 100%;
+    height: auto;
+    */
 }
+
+/*
+.bordered-img {
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: 4px;
+  max-width: 100%;
+  height: auto;
+}
+*/
 
 .centered-figure figcaption {
   font-size: 0.9em;
