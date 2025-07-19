@@ -162,31 +162,37 @@ pre, code {
 /* Center the figure block */
 .centered-figure {
   text-align: center;
-  margin: 1.5em auto;
+  margin: 1.85em auto; /* 3em  creates room for the caption below */
+  border: 3px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #fff;
 
-    /* Making a border in the image.
-  border: 3px solid black;
-  border-radius: 8px;
-    padding: 4px;
-    max-width: 100%;
-    height: auto;
-    */
-}
+  display: table;
 
-/*
-.bordered-img {
-  border: 3px solid black;
-  border-radius: 8px;
-  padding: 4px;
-  max-width: 100%;
-  height: auto;
+  /*display: table;
+
+  display: inline-block;
+  position: relative;*/
 }
-*/
 
 .centered-figure figcaption {
   font-size: 0.9em;
   font-style: italic;
   color: #555;
-  margin-top: 0.5em;
+  margin-top: 0.75em;
   text-align: center;
+
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+
+/*
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2em; Push below the figure border
+    width: 100%;
+    pointer-events: none;
+    */
 }
