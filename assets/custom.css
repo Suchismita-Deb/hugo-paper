@@ -114,6 +114,16 @@ pre, code {
     max-width: 1000px !important;
 }
 
+
+
+.post {
+  max-width: 900px !important;
+}
+
+.markdown-body {
+  max-width: 900px !important;
+}
+
 /*Center the image.*/
 .center-image {
     display: block !important;
