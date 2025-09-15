@@ -2,10 +2,12 @@
 
 h3 {
     color: #009900 !important;
+    /* text-align: center !important; */
 }
 
 h2{
     color: #094d1b !important; /* fc7303 */
+    /* text-align: center !important; */
 }
 
 body.home h1,
@@ -175,4 +177,8 @@ pre, code {
   left: 50%;
   position: absolute;
   transform: translateX(-50%);
+}
+
+article h3 {
+    text-align: center !important;  /* Making the heading center. h2 is making the title center in the front page. Only h3. */
 }
