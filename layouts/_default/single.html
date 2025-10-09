@@ -21,6 +21,11 @@
 
   <section>{{ .Content }}</section>
 
+  <div class="page-toc">
+    {{ .TableOfContents }}
+  </div>
+
+
   <!-- Post Tags -->
   {{ if .Params.tags }}
   <footer class="mt-12 flex flex-wrap">

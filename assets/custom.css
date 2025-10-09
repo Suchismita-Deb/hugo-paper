@@ -182,3 +182,48 @@ pre, code {
 article h3 {
     text-align: center !important;  /* Making the heading center. h2 is making the title center in the front page. Only h3. */
 }
+/* Adding the index navigation in the right part of the page. */
+.page-toc {
+  position: fixed;
+  top: 198px;
+  right: 30px;
+  width: 250px;
+  max-height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #fafafa;
+  border-left: 3px solid #008000; /* matches Paper green */
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  transform: translateY(-15%); /* Center vertically */
+  z-index: 100; /* Add this line to ensure it stays above content */
+}
+
+.page-toc ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.page-toc li {
+  margin-bottom: 8px;
+}
+
+.page-toc a {
+  color: #7a411e !important;
+  text-decoration: none;
+}
+
+.page-toc a:hover {
+  text-decoration: underline;
+}
+
+.page-toc::-webkit-scrollbar {
+  width: 6px;
+}
+.page-toc::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
