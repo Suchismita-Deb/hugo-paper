@@ -34,6 +34,7 @@ avatar = 'nanxiaobei@gmail.com'
 #  [markup.highlight]
 #    lineNos = true
 
+
 [menu]
 
   [[menu.main]]
@@ -52,6 +53,8 @@ category = "categories"
 tag = "tags"
 series = "series"
 
+
+disableKinds = ["RSS"]
 [privacy]
 
   [privacy.vimeo]
