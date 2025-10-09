@@ -53,8 +53,6 @@ category = "categories"
 tag = "tags"
 series = "series"
 
-
-disableKinds = ["RSS"]
 [privacy]
 
   [privacy.vimeo]
