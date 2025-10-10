@@ -182,8 +182,8 @@ pre, code {
 article h3 {
     text-align: center !important;  /* Making the heading center. h2 is making the title center in the front page. Only h3. */
 }
-        /* Adding the index navigation in the right part of the page. */
-        .page-toc {
+/* Adding the index navigation in the right part of the page. */
+.page-toc {
     position: fixed;
     top: 198px;
     right: 30px;
@@ -206,16 +206,16 @@ list-style: none;
 padding-left: 10px;
 }
 
-        .page-toc li {
+.page-toc li {
 margin-bottom: 8px;
 }
 
-        .page-toc a {
+.page-toc a {
 color: #7a411e !important;
 text-decoration: none;
 }
 
-        .page-toc a:hover {
+.page-toc a:hover {
     text-decoration: underline;
 }
 

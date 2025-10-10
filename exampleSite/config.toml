@@ -52,6 +52,8 @@ avatar = 'nanxiaobei@gmail.com'
 category = "categories"
 tag = "tags"
 series = "series"
+[params]
+  showToc = true
 
 [privacy]
 
